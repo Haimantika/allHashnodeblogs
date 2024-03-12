@@ -47,7 +47,7 @@ In my opinion, you should have a minimal portfolio and then keep updating it. Wi
       - list of all blogs
     ```
     
-2. The next step is deciding the components, since this is a minimal portfolio all that we needed was:
+2. The next step is deciding the components, since this is a minimal portfolio all that we need are:
     
     * A header section
         
@@ -114,12 +114,12 @@ In my opinion, you should have a minimal portfolio and then keep updating it. Wi
                     </a>
     ```
     
-    ***Note: To make the blog precise, I have mentioned pseudo codes. You can find the entire code*** [***here***](https://github.com/Haimantika/haimantika-headless-portfolio)***.***
+    ***Note: To make the blog precise, I have mentioned pseudo codes. You can find the entire code***[***here***](https://github.com/Haimantika/haimantika-headless-portfolio)***.***
     
 6. The next step is to build the [blog](https://haimantika.dev/blog) page. For my portfolio, I have used Hashnode Headless' [starter kit](https://github.com/Hashnode/starter-kit).  
-    ***Note: Follow the*** [***README***](https://github.com/Hashnode/starter-kit/blob/main/README.md) ***thoroughly to setup your own blog (it literally takes just a few minutes).***
+    ***Note: Follow the***[***README***](https://github.com/Hashnode/starter-kit/blob/main/README.md)***thoroughly to setup your own blog (it literally takes just a few minutes).***
     
-7. Once your blog is ready, our final step is to customise the blog and align it with our existing UI. Since my portfolio is a simple dark background, all that I had to do is use Hashnode Headless CMS' dark mode. You can do that from the `tailwind.config.js` file.
+7. Once your blog is ready, the final step is to customise the blog and align it with our existing UI. Since my portfolio is a simple dark background, all that I had to do is use Hashnode Headless CMS' dark mode. You can do that from the `tailwind.config.js` file.
     
 8. Next up is, adding the footer and header components.  
     To update the header, go to `packages/blog-starter-kit/themes/personal/components/personal-theme-header.tsx` and add the following piece of code:
@@ -155,4 +155,4 @@ In my opinion, you should have a minimal portfolio and then keep updating it. Wi
 
 ## Ending notes
 
-I hope you had fun reading it and will soon be building a portfolio. For hosting my portfolio, I have used [Cloudflare](https://www.cloudflare.com/en-gb/) and the Hashnode Headless blog is running in Vercel. If you need any help with hosting or routing, feel free to drop a comment here or DM me [@HaimantikaM](https://twitter.com/HaimantikaM)
+I hope you had fun reading it and will soon be building a portfolio. For hosting my portfolio, I have used [Cloudflare](https://www.cloudflare.com/en-gb/) and the Hashnode Headless blog is running in Vercel. If you need any help with hosting or routing, feel free DM me [@HaimantikaM](https://twitter.com/HaimantikaM)
