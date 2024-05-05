@@ -1,11 +1,11 @@
 ---
-title: "Building search functionality in your app using Azure AI: Part 1"
+title: "Building search functionality in your app using Azure AI"
 seoTitle: "Integrate Search in Apps with Azure AI"
 seoDescription: "Learn to build and integrate Azure AI-powered search functionality into your app with this step-by-step guide"
 datePublished: Sun Apr 21 2024 14:30:29 GMT+0000 (Coordinated Universal Time)
 cuid: clv9ml2x7000309judmq9fypv
-slug: building-search-functionality-in-your-app-using-azure-ai-part-1
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1713700370365/747346ad-fdb1-4f05-bf0a-3834c06603f9.png
+slug: building-search-functionality-in-your-app-using-azure-ai
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1714889442471/29d351c4-50bf-4419-b132-882ae8968f02.png
 tags: ai, azure
 
 ---
@@ -37,7 +37,7 @@ The first step in creating a search solution is to build an index, which you can
     
     * Sign in to the [Azure portal](https://portal.azure.com/).
         
-    * Select the [**Import data wizard**](https://learn.microsoft.com/en-us/azure/search/search-import-data-portal) **-** The wizard provides a complete workflow that creates an indexer, a data source, and a finished index, and it also loads the data. If you need a simpler option, choose **Add Index** instead.
+    * Select the [**Import data wizard**](https://learn.microsoft.com/en-us/azure/search/search-import-data-portal)**\-** The wizard provides a complete workflow that creates an indexer, a data source, and a finished index, and it also loads the data. If you need a simpler option, choose **Add Index** instead.
         
         ![Screenshot of the Microsoft Azure portal interface showing the demo-search-svc page with options to "Add index" and "Import data" highlighted.](https://learn.microsoft.com/en-us/azure/search/media/search-what-is-an-index/add-index.png align="center")
         
@@ -58,7 +58,7 @@ The first step in creating a search solution is to build an index, which you can
     * Get a query key that provides read access to a search service.
         
         ```bash
-        az search query-key list --resource-group cognitive-search-demo-rg --service-name my-cog-search-demo-svc 
+        az search query-key list --resource-group cognitive-search-demo-rg --service-name my-cog-search-demo-svc
         ```
         
     * Get a search service admin API key, which provides write access to the search service.
@@ -84,4 +84,4 @@ This is how the demo will look like:
 
 %[https://www.loom.com/share/dc78a4759bbf4642a395fd8049c63dd7?sid=5fcf11b6-be1c-4a23-9149-f051580df9d4] 
 
-And that's all about creating an index, next up we will see how we can use Azure AI APIs to integrate this index into our web app.
+And that's all about creating an index, next up we will see how we can use Azure AI to build RAG applications.
