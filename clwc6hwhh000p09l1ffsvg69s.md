@@ -181,4 +181,8 @@ Let us understand how to build one using a simple example. We will be building a
     ```
     
 
+## Working of the demo
+
+%[https://x.com/HaimantikaM/status/1791533697587646650] 
+
 With this demo, you learnt the basics of building a RAG. If you want to see the entire code, you can find it [here](https://github.com/Haimantika/RAG_TIL_conference_demo).
